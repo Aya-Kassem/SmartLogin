@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="CSS/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/index.css" rel="stylesheet">
+    <title>Welcome-User</title>
+</head>
+
+
+<body onload="welcomeUser()">
+    <nav class="navbar navbar-expand-md fixed-top">
+        <div class="container d-flex justify-content-space-between align-items-center">
+            <a href="#" class="navbar-brand text-white text-uppercase">SMART LOGIN</a>
+        
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNav" aria-controls="myNav" aria-expand="false" aria-label="toggle navigation">
+                <div class="d-flex flex-column">
+                    <span class="nav-icon"></span>
+                    <span class="nav-icon"></span>
+                    <span class="nav-icon"></span>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="myNav">
+                <a href="index.html" type="button" class="btn d-block d-md-inline-block mt-3 mt-md-0 logout-btn btn-outline-warning ms-auto">Logout</a>
+            </div>
+        </div>
+    </nav>
+
+    <div style="height: 100vh" class="container d-flex align-items-center justify-content-center">
+        <div class="row w-100">
+            <div class="content col-9 p-5 mx-auto text-center">
+                <h1>Welcome <span id="name"></span></h1>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="JS/bootstrap.bundle.js"></script>
+    <script src="JS/signIn.js"></script>
+</body>
+</html>

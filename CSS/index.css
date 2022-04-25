@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background: rgb(36, 53, 63);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    color: #fff;
+}
+.wrapper{
+    box-shadow: 0 0 30px rgba(0,0,0,.6);
+    border-radius: 3px;
+}
+h1{
+    font-size: 40px;
+    color: #17A2BB;
+}
+.form-control{
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, .7);
+    color: #fff;
+}
+.form-control:focus{
+    box-shadow: none;
+    border: 1px solid #17A2BB;
+    background-color: transparent;
+    color: #fff;
+}
+form ::placeholder{
+    color: rgba(255, 255, 255, .6);
+}
+#signup,
+#signin{
+    border: 1px solid #17A2BB;
+    color: #17A2BB;
+    transition: all .3s ease-in-out;
+}
+#signup:hover,
+#signin:hover{
+    color: #fff;
+    background-color: #17A2BB;
+}
+.btn-check:focus+.btn, .btn:focus {
+    box-shadow: 0 0 0 0.20rem rgb(13 110 253 / 25%);
+}
+.alert,
+.done,
+.incorrect{
+    display: none;
+}
+
+.navbar,
+.content {
+    box-shadow: 0 0px 40px rgba(0, 0, 0, .7);
+}
+.navbar-brand:hover,
+.logout-btn:hover {
+    text-decoration: none;
+}
+.nav-icon {
+    width: 25px;
+    height: 2px;
+    background-color: #fff;
+    margin: 3px;
+}
+.navbar-toggler:focus {
+    box-shadow: none
+}
